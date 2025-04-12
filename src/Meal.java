@@ -23,7 +23,7 @@ public abstract class Meal {
         }
         System.out.println(getMealType() + " bevat in totaal: " + totaal + " kcal");
         for (Eten food : eten) {
-            System.out.println("- " + food.getEtenNaam() + ": " + food.getEtenCalorie() + " calorieen");
+            System.out.println("- " + food.getEtenNaam() + "("+ food.getEtenGewicht() + "gram)" + ": " + food.getEtenCalorie() + " calorieen");
         }
         return totaal;
     }
