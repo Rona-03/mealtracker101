@@ -21,6 +21,10 @@ public abstract class Meal {
         for (Eten food : eten) {
             totaal += food.getEtenCalorie();
         }
+        System.out.println(getMealType() + " bevat in totaal: " + totaal + " kcal");
+        for (Eten food : eten) {
+            System.out.println("- " + food.getEtenNaam() + ": " + food.getEtenCalorie() + " calorieen");
+        }
         return totaal;
     }
 
