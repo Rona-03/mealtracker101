@@ -7,6 +7,6 @@ public class Lunch extends Meal {
 
     @Override
     public String getMealType() {
-        return "Diner";
+        return "Lunch";
     }
 }
